@@ -1,13 +1,16 @@
+/*Apply to the entire website*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Website background-colour*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Navigation bar styles*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*Company name font size and position*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Company name's "seo" lettering colour*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Navigation bar Tag styles*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,108 +38,129 @@ body {
     font-size: 20px;
 }
 
+/*Remove UL circle from tag link*/
 .header div ul {
     list-style-type: none;
 }
 
+/*Navigation tag positioning*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*All Link colour and remove underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*All paragraph's font-size*/
 p {
     font-size: 16px;
 }
 
+/*Landing page main image*/
 .hero {
-    height: 800px;
+    height: 1268px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
     background-position: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+/*Position left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Position right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Linked data page content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Horizontal layout styles*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 1000px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/*Lead gen layout container style*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Brand awareness layout container style*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Cost management data container style*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/*Lead gen layout Header style*/
+.benefit-lead h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*Brand awareness layout Header style*/
+.benefit-brand h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+/*Cost management data Header style*/
+.benefit-cost h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Lead gen layout image style*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Brand awareness layout image style*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Cost management data image style*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Search engine layout container style*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +170,7 @@ p {
     color: #ffffff;
 }
 
+/*Online reputation layout container style*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +180,7 @@ p {
     color: #ffffff;
 }
 
+/*Socail media layout container style*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +190,40 @@ p {
     color: #ffffff;
 }
 
+/*Search engine layout image style*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Online reputation layout image style*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Socail media layout image style*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*Search engine layout header style*/
+.search-engine-optimization h1 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/*Online reputation layout header style*/
+.online-reputation-management h1 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+/*Socail media layout header style*/
+.social-media-marketing h1 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Footer styles*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +231,7 @@ p {
     text-align: center;
 }
 
+/*Footer header style*/
 .footer h2 {
     font-size: 20px;
 }
