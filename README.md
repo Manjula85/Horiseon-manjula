@@ -12,4 +12,4 @@ The exercise to access the <b>'Horiseon'</b> website and make it more accessible
 
 ### URL to the website
 
-<a href="https://manjula85.github.io/mHoriseon/">Hriseon</a>
+<a href="https://manjula85.github.io/Horiseon-manjula/">Hriseon</a>
