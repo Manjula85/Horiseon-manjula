@@ -6,7 +6,7 @@ The exercise to access the <b>'Horiseon'</b> website and make it more accessible
 
 ## Web page
 
-<img src="./assets/images/digital-marketing-meeting.jpg" alt="Web page">
+<img src="./assets/images/Horiseon.png" alt="Web page">
 
 <HR>
 
